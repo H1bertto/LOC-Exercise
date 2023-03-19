@@ -10,7 +10,7 @@ for line in file_lines:
     if "#" in line or not line:
         file_lines.pop()
 
-print('Total de Linhas Sem Comentários e Linhas em Branco',len(file_lines))
+print('Total de Linhas Sem Comentários e Linhas em Branco', len(file_lines))
 
 
 # Exercício 2: https://github.com/alinebrito/eng-software-economica/blob/main/docs/lab-tamanho-sistema-ferramenta-ck.md
