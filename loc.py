@@ -1,5 +1,7 @@
 # Author: Humberto Vieira de Souza
 # LAB 5 de Engenharia Econômica para Software
+# https://github.com/alinebrito/eng-software-economica/blob/main/docs/lab-tamanho-sistema-ferramenta-ck.md
+
 # Exercício 1:
 f = open('exercise1.py', 'r', encoding='utf-8')
 file_lines = f.readlines()
@@ -13,12 +15,12 @@ for line in file_lines:
 print('Total de Linhas Sem Comentários e Linhas em Branco', len(file_lines))
 
 
-# Exercício 2: https://github.com/alinebrito/eng-software-economica/blob/main/docs/lab-tamanho-sistema-ferramenta-ck.md
+# Exercício 2:
 
 # O código base do PyDriller foi Modificado para desconsiderar
 # linhas em branco e linhas de comentários adicionadas ou removidas
 
-from exercise2.pydriller.pydriller.metrics.process.lines_count import LinesCount as Loc
+from to_exercise2.pydriller.pydriller.metrics.process.lines_count import LinesCount as Loc
 from pydriller.metrics.process.lines_count import LinesCount
 
 
